@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
 		.then((items) => res.json(items))
 })
 
-// @route   POST api/items
+// @route   POST api/itemsss
 // @desc    Create an item
 // @access  public
 router.post("/", (req, res) => {
